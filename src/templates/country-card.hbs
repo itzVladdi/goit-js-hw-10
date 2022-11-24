@@ -1,0 +1,10 @@
+
+<img src='{{this.flags.svg}}' width='150' height="100" />
+<div class="country">        
+    <h2 class="country__title"> {{this.name.official}}</h2>
+    <div class='item-wrapper'>
+        <p class="country__item"><b>Capital: </b>{{this.capital}}</p>
+        <p class="country__item"><b>Population: </b> {{this.population}}</p>
+        <p class="country__item"><b>Languages: </b> {{#each languages}}{{this}}{{/each}}</p>
+    </div>
+</div>
